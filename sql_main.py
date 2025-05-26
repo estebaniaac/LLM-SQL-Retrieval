@@ -4,10 +4,10 @@ from sql_calls import *
 from utils.rag_utils import sql_rag_call
 
 # --- User Input ---
-user_question = "What is the hourly rate of the paintor?"
+user_question = "What seems the most chill level for you?"
 
 # --- Load SQL Database ---
-db_path = "sql/cost-database.db"
+db_path = "sql/example_outdoor_spaces.db"
 db_schema = get_dB_schema(db_path)
 
 # --- Retrieve most relevant table ---

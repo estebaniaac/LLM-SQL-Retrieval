@@ -1,8 +1,17 @@
-Table: Labour
-Description: This table contains information about workers involved in the construction project. Each row records a unique labourer or role, their hourly rate, number of hours worked, and the total labour cost calculated from rate and hours.
+Table: Units
+Description: This table stores data about individual housing or accommodation units, typically within larger outdoor or shared spaces. Each row represents a unique unit with its features and capacity details.
 
-Table: Material
-Description: This table tracks the materials used in construction. It includes the cost per unit of material, quantity used, and total material cost.
+Table: activity_space
+Description: Lists shared or public activity spaces within the site, such as lounges, studios, or gardens. Each row defines a space and its physical characteristics.
 
-Table: Equipment
-Description: This table provides data about the equipment rented or used during construction. It captures the daily rental cost and usage duration.
+Table: level_1
+Description: These tables represent floor plans or layouts for each level. Each row defines a spatial element on a given level, such as a unit, corridor, garden, or activity zone. They are useful for visual mapping, programming, or occupancy planning.
+
+Table: level_2
+Description: These tables represent floor plans or layouts for each level. Each row defines a spatial element on a given level, such as a unit, corridor, garden, or activity zone. They are useful for visual mapping, programming, or occupancy planning.
+
+Table: level_3
+Description: These tables represent floor plans or layouts for each level. Each row defines a spatial element on a given level, such as a unit, corridor, garden, or activity zone. They are useful for visual mapping, programming, or occupancy planning.
+
+Table: level_4
+Description: These tables represent floor plans or layouts for each level. Each row defines a spatial element on a given level, such as a unit, corridor, garden, or activity zone. They are useful for visual mapping, programming, or occupancy planning.
